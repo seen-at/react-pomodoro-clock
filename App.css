@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    color: white;
+    background-color: rgb(72, 5, 128);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    margin: 10px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+span {
+    font-size: 30px;
+    margin: 0 10px;
+    width: 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.timer-container h3 {
+    margin: 0;
+}
+
+.clock-container {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.clock-container span {
+    font-size: 50px;
+}
+
+.clock-container button {
+    margin: 10px;
+    border: none;
+}
